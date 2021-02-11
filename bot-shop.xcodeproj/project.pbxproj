@@ -14,6 +14,7 @@
 		6304D05C25D5C778004C7BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6304D05A25D5C778004C7BAA /* LaunchScreen.storyboard */; };
 		6304D06825D5CBFB004C7BAA /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6304D06725D5CBFB004C7BAA /* PastOrderViewController.swift */; };
 		6304D06B25D5CC5F004C7BAA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6304D06A25D5CC5F004C7BAA /* TabBarController.swift */; };
+		6304D07225D5D17A004C7BAA /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6304D07125D5D17A004C7BAA /* NewItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6304D05D25D5C778004C7BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6304D06725D5CBFB004C7BAA /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
 		6304D06A25D5CC5F004C7BAA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6304D07125D5D17A004C7BAA /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6304D05325D5C778004C7BAA /* NewOrderViewController.swift */,
 				6304D06725D5CBFB004C7BAA /* PastOrderViewController.swift */,
 				6304D06A25D5CC5F004C7BAA /* TabBarController.swift */,
+				6304D07125D5D17A004C7BAA /* NewItemCell.swift */,
 				6304D05825D5C778004C7BAA /* Assets.xcassets */,
 				6304D05A25D5C778004C7BAA /* LaunchScreen.storyboard */,
 				6304D05D25D5C778004C7BAA /* Info.plist */,
@@ -144,6 +147,7 @@
 				6304D05225D5C778004C7BAA /* SceneDelegate.swift in Sources */,
 				6304D06B25D5CC5F004C7BAA /* TabBarController.swift in Sources */,
 				6304D06825D5CBFB004C7BAA /* PastOrderViewController.swift in Sources */,
+				6304D07225D5D17A004C7BAA /* NewItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
