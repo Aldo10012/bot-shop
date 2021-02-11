@@ -32,7 +32,7 @@ class NewOrderViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .red
+        view.backgroundColor = #colorLiteral(red: 0.8666666667, green: 0.8666666667, blue: 0.8666666667, alpha: 1)
         collectionView.dataSource = self
         collectionView.delegate = self
         
@@ -58,7 +58,7 @@ extension NewOrderViewController: UICollectionViewDataSource, UICollectionViewDe
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! NewItemCell
-        cell.backgroundColor = .green
+        cell.backgroundColor = #colorLiteral(red: 0.6733198166, green: 0.6693196297, blue: 0.6763963103, alpha: 1)
         cell.data = self.data[indexPath.row]
         return cell
     }
